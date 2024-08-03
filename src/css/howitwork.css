@@ -135,3 +135,9 @@
     box-shadow: 0px 4px 16px 0px #0000000F;
 
 }
+
+/* slider css */
+.slide-image-wrapper{
+    display: flex;
+    justify-content: center;
+}
