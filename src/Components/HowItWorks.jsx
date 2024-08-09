@@ -8,12 +8,13 @@ import BlockContentImage from './BlockContentImage'
 import SpecializeCard from './SpecializeCard'
 import Slider from './Slider'
 
-
 // This is dummy for testing props 
 import reactSlide from '../images/react-slide.png';
 import angularSlide from '../images/angular-slide.png';
 import nextSlide from '../images/next-slide.png';
 import nodeSlide from '../images/node-slide.png';
+
+
 const imageBlockData = [
   { imgSrc: reactSlide},
   { imgSrc: angularSlide},

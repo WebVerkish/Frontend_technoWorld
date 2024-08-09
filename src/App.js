@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import Services from './Components/Services';
 import Technologies from './Components/Technologies';
 import Careers from './Components/Careers';
+import Footer from './Components/Footer';
 
 
 function App() {  
@@ -14,12 +15,14 @@ function App() {
       <BrowserRouter>
         <Navbar />
         
+        
         <Routes>
           <Route path="/" element={<HowItWorks />} />
           <Route path="/services" element={<Services />} />
           <Route path="/technologies" element={<Technologies />} />
           <Route path="/careers" element={<Careers />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

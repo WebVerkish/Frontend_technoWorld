@@ -132,6 +132,13 @@ body {
   color:#16205F;
   font-weight:400;
 }
+.p1B{
+  font-size: 18px;
+  line-height:27px;
+  color:#16205F;
+  font-weight:600;
+}
+
 h1,.h1{
   font-size: 64px;
   line-height:78px;
@@ -212,4 +219,34 @@ h4,.h4{
 }
 .text-center{
   text-align: center;
+}
+.footer_about_detail-wrapper{
+  max-width: 315px;
+}
+.d-flex{
+  display: flex;
+  gap:10px;
+  align-items: flex-start;
+}
+.txt-decoration-none{
+  text-decoration: none;
+}
+.m-1{
+  margin: 15px 0;
+}
+.footer_section .menu-list{
+  list-style:none;
+  padding-left:0;
+}
+.menu-wrapper-footer{
+  display: flex;
+  gap:50px;
+  width:100%;
+}
+.menu-section{
+  width:calc(33% - 50px * 2/3);
+}
+.footer-wrapper{
+  display: flex;
+  gap:30px;
 }
