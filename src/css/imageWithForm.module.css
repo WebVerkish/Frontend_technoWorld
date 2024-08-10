@@ -1,0 +1,84 @@
+.imageWithForm{
+    position: relative;
+}
+.leftImgTxtWrapper{
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+.imgWrapperImgTxt,.imgWrapperImgTxt img{
+    width: 100%;
+    height: 100%;
+}
+.contactform{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    padding: 0 40px;
+    width: 30%;
+    height: 75%;
+    border-radius: 30px 0px 30px 0px;
+}
+.companyAndName,.phoneandemail{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.companyAndName label,.companyAndName input,.phoneandemail label,.phoneandemail input,.inputcheckbox label{
+    display: block;
+    
+}
+label{
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #16205F;
+}
+.checkbox{
+    display: flex;
+    margin-bottom: 20px;
+}
+.checkboxinput{
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    width: auto;
+}
+.checkboxlabel{
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+    color:#16205F;
+}
+.checkboxlabel a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+    color:#16205F;
+    margin-left: 2px;
+}
+input{
+    width: 210px;
+    max-height: 30px;
+    padding: 10px;
+    margin-bottom: 44px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #C5E0FF;
+}
+textarea{
+    width: 100%;
+    min-height: 60px;
+    padding: 10px;
+    margin-bottom: 44px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #C5E0FF;
+}
+.inputcheckbox textarea{
+    display: block;
+}
+.checkbox button img{
+    margin-left: 10px;
+}
